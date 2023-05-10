@@ -1,6 +1,7 @@
 # KNN_Gender_Recognition_by_Voice
 
-dataset source : https://www.kaggle.com/datasets/primaryobjects/voicegender
+Description:
+Using Mean frequency & IQR, KNN achieved accuracy of 98/96 for Male/Female prediction, improvement were done using search grid to optimize the K-neighbors count and distance measures. However, no significant improvement were spotted beyond the 98% accuracy.
 
 Confusion Matrix:
 
@@ -13,8 +14,9 @@ Summary:
 ![image](https://github.com/Yassir-Mohammed/KNN_Gender_Recognition_by_Voice/assets/103688787/69f96132-805b-4e05-88b9-9f094ee476aa)
 
 
+dataset source : https://www.kaggle.com/datasets/primaryobjects/voicegender
 
-Regressors: 
+All Regressors: 
 * meanfreq: mean frequency (in kHz)
 * sd: standard deviation of frequency
 * median: median frequency (in kHz)
