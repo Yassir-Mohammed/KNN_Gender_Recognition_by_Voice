@@ -1,6 +1,5 @@
 # KNN_Gender_Recognition_by_Voice
 
-Description:
 Using Mean frequency & IQR, KNN achieved accuracy of 98/96 for Male/Female prediction, improvement were done using search grid to optimize the K-neighbors count and distance measures. However, no significant improvement were spotted beyond the 98% accuracy.
 
 Confusion Matrix:
